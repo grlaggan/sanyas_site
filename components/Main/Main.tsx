@@ -61,7 +61,7 @@ const Main = () => (
         <img src="../../public/img/Main/vk.svg" alt="" />
       </a>
       <a
-        href="mailto:solodcenkoivan01@gmail.com"
+        href="mailto:EvTevs@yandex.ru"
         className="main__feedback__link"
         target="_blank"
       >
