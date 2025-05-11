@@ -1,0 +1,33 @@
+@use './reset';
+@use '../components/Header/header';
+@use '../components/LeftAside/left-aside';
+@use '../components/Main/main';
+@use '../components/RightAside/right-aside';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+
+@font-face {
+  font-display: swap;
+  font-family: Kaisei;
+  font-style: normal;
+  font: 400;
+  src: url('../fonts/Kaisei/KaiseiTokumin-Regular.ttf') format('ttf');
+}
+
+body {
+  background-color: #386D77;
+  overflow: hidden;
+
+  .container {
+    max-width: 1920px;
+    margin-inline: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 238px);
+  }
+
+  .text-center {
+    text-align: center;
+  }
+}
