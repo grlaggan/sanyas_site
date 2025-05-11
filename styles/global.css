@@ -350,7 +350,7 @@ span {
 }
 .right-aside__block__img--work {
   content: "";
-  background-image: url("../../public/img/RightAside/work.png");
+  background-image: url("/img/RightAside/work.png");
   background-repeat: no-repeat;
   background-position: center center;
   right: 0;
@@ -359,7 +359,7 @@ span {
 }
 .right-aside__block__img--university {
   content: "";
-  background-image: url("../../public/img/RightAside/education-u.png");
+  background-image: url("/img/RightAside/education-u.png");
   background-repeat: no-repeat;
   background-position: center center;
   right: 0;
@@ -376,7 +376,7 @@ span {
 }
 .right-aside__img--school {
   content: "";
-  background-image: url("../../public/img/RightAside/education-s.png");
+  background-image: url("/img/RightAside/education-s.png");
   background-repeat: no-repeat;
   background-position: center center;
   right: 0;
@@ -393,7 +393,7 @@ span {
 }
 body {
   background-color: #386D77;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 body .container {
   max-width: 1920px;

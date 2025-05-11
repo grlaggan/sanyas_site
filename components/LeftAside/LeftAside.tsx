@@ -9,7 +9,7 @@ const LeftAside = () => {
   return (
     <aside className="left-aside" ref={leftAsideRef}>
       <img
-        src="../../public/img/LeftAside/photo.png"
+        src="/img/LeftAside/photo.png"
         alt="Photo"
         className="left-aside__photo"
       />
@@ -22,14 +22,14 @@ const LeftAside = () => {
           className="left-aside__link"
           target="_blank"
         >
-          <img src="../../public/img/LeftAside/oge.jpg" alt="Oge" />
+          <img src="/img/LeftAside/oge.jpg" alt="Oge" />
         </a>
         <a
           href="https://sdamgia.ru/?ysclid=mai3kemod8806992403"
           className="left-aside__link"
           target="_blank"
         >
-          <img src="../../public/img/LeftAside/ege.jpg" alt="Oge" />
+          <img src="/img/LeftAside/ege.jpg" alt="Oge" />
         </a>
       </div>
       <div className="left-aside__video-lessons">

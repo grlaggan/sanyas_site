@@ -14,11 +14,7 @@ const Header = () => {
           преподаватель физики, математики - стаж работы: 4 года
         </p>
       </div>
-      <img
-        src="../../public/img/Header/bg.png"
-        alt="Background"
-        className="header__bg"
-      />
+      <img src="/img/Header/bg.png" alt="Background" className="header__bg" />
     </header>
   );
 };

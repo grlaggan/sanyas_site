@@ -57,22 +57,22 @@ const Main = () => (
     </div>
     <div className="main__feedback">
       <span className="main__text main-small">связь:</span>
-      <a href="#" className="main__feedback__link">
-        <img src="../../public/img/Main/vk.svg" alt="" />
+      <a
+        href="https://vk.com/ev_tev"
+        className="main__feedback__link"
+        target="_blank"
+      >
+        <img src="/img/Main/vk.svg" alt="" />
       </a>
       <a
         href="mailto:EvTevs@yandex.ru"
         className="main__feedback__link"
         target="_blank"
       >
-        <img src="../../public/img/Main/yandex.svg" alt="" />
+        <img src="/img/Main/yandex.svg" alt="" />
       </a>
     </div>
-    <img
-      src="../../public/img/Main/bg.png"
-      alt="Background"
-      className="main__bg"
-    />
+    <img src="/img/Main/bg.png" alt="Background" className="main__bg" />
   </main>
 );
 

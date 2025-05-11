@@ -37,7 +37,7 @@
 
       &--work {
         content: '';
-        background-image: url('../../public/img/RightAside/work.png');
+        background-image: url('/img/RightAside/work.png');
         background-repeat: no-repeat;
         background-position: center center;
         right: 0;
@@ -47,7 +47,7 @@
 
       &--university {
         content: '';
-        background-image: url('../../public/img/RightAside/education-u.png');
+        background-image: url('/img/RightAside/education-u.png');
         background-repeat: no-repeat;
         background-position: center center;
         right: 0;
@@ -67,7 +67,7 @@
 
     &--school {
       content: '';
-      background-image: url('../../public/img/RightAside/education-s.png');
+      background-image: url('/img/RightAside/education-s.png');
       background-repeat: no-repeat;
       background-position: center center;
       right: 0;
